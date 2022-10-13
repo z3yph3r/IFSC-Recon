@@ -3,6 +3,11 @@ import requests as req
 from Config import *
 
 
+#TELEGRAM CREDENTIALS
+API_ID = ""
+API_HASH = ""
+BOT_TOKEN = ""
+
 app=Client('IFSC-Recon',
            api_id=API_ID,
            api_hash=API_HASH,
